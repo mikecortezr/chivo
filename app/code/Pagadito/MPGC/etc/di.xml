@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Payment Method Facade configuration -->
+    <virtualType name="MPGCFacade" type="Magento\Payment\Model\Method\Adapter">
+        <arguments>
+            <argument name="code" xsi:type="const">\Pagadito\MPGC\Model\Ui\ConfigProvider::CODE</argument>
+            <argument name="formBlockType" xsi:type="string">Magento\Payment\Block\Form</argument>
+            <argument name="infoBlockType" xsi:type="string">Pagadito\MPGC\Block\Info</argument>
+            <argument name="valueHandlerPool" xsi:type="object">MPGCValueHandlerPool</argument>
+            <argument name="commandPool" xsi:type="object">MPGCCommandPool</argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Configuration reader -->
+    <virtualType name="MPGCConfig" type="Magento\Payment\Gateway\Config\Config">
+        <arguments>
+            <argument name="methodCode" xsi:type="const">\Pagadito\MPGC\Model\Ui\ConfigProvider::CODE</argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Logger, initialized with MPGCConfig -->
+    <virtualType name="MPGCLogger" type="Magento\Payment\Model\Method\Logger">
+        <arguments>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Pagadito\MPGC\Gateway\Http\Client\ClientMock">
+        <arguments>
+            <argument name="logger" xsi:type="object">MPGCLogger</argument>
+        </arguments>
+    </type>
+
+    <!-- Commands infrastructure -->
+    <virtualType name="MPGCCommandPool" type="Magento\Payment\Gateway\Command\CommandPool">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="authorize" xsi:type="string">MPGCAuthorizeCommand</item>
+                <item name="capture" xsi:type="string">MPGCCaptureCommand</item>
+                <item name="void" xsi:type="string">MPGCVoidCommand</item>
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Authorize command -->
+    <virtualType name="MPGCAuthorizeCommand" type="Magento\Payment\Gateway\Command\GatewayCommand">
+        <arguments>
+            <argument name="requestBuilder" xsi:type="object">MPGCAuthorizationRequest</argument>
+            <argument name="handler" xsi:type="object">MPGCResponseHandlerComposite</argument>
+            <argument name="transferFactory" xsi:type="object">Pagadito\MPGC\Gateway\Http\TransferFactory</argument>
+            <argument name="client" xsi:type="object">Pagadito\MPGC\Gateway\Http\Client\ClientMock</argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Authorization Request -->
+    <virtualType name="MPGCAuthorizationRequest" type="Magento\Payment\Gateway\Request\BuilderComposite">
+        <arguments>
+            <argument name="builders" xsi:type="array">
+                <item name="transaction" xsi:type="string">Pagadito\MPGC\Gateway\Request\AuthorizationRequest</item>
+                <item name="mockData" xsi:type="string">Pagadito\MPGC\Gateway\Request\MockDataRequest</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <type name="Pagadito\MPGC\Gateway\Request\AuthorizationRequest">
+        <arguments>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </type>
+
+    <!-- Capture command -->
+    <virtualType name="MPGCCaptureCommand" type="Magento\Payment\Gateway\Command\GatewayCommand">
+        <arguments>
+            <argument name="requestBuilder" xsi:type="object">Pagadito\MPGC\Gateway\Request\CaptureRequest</argument>
+            <argument name="handler" xsi:type="object">Pagadito\MPGC\Gateway\Response\TxnIdHandler</argument>
+            <argument name="transferFactory" xsi:type="object">Pagadito\MPGC\Gateway\Http\TransferFactory</argument>
+            <argument name="validator" xsi:type="object">Pagadito\MPGC\Gateway\Validator\ResponseCodeValidator</argument>
+            <argument name="client" xsi:type="object">Pagadito\MPGC\Gateway\Http\Client\ClientMock</argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Capture Request -->
+    <type name="Pagadito\MPGC\Gateway\Request\CaptureRequest">
+        <arguments>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </type>
+
+    <!-- Void command -->
+    <virtualType name="MPGCVoidCommand" type="Magento\Payment\Gateway\Command\GatewayCommand">
+        <arguments>
+            <argument name="requestBuilder" xsi:type="object">Pagadito\MPGC\Gateway\Request\VoidRequest</argument>
+            <argument name="handler" xsi:type="object">Pagadito\MPGC\Gateway\Response\TxnIdHandler</argument>
+            <argument name="transferFactory" xsi:type="object">Pagadito\MPGC\Gateway\Http\TransferFactory</argument>
+            <argument name="validator" xsi:type="object">Pagadito\MPGC\Gateway\Validator\ResponseCodeValidator</argument>
+            <argument name="client" xsi:type="object">Pagadito\MPGC\Gateway\Http\Client\ClientMock</argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Void Request -->
+    <type name="Pagadito\MPGC\Gateway\Request\VoidRequest">
+        <arguments>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </type>
+
+    <!-- Response handlers -->
+    <virtualType name="MPGCResponseHandlerComposite" type="Magento\Payment\Gateway\Response\HandlerChain">
+        <arguments>
+            <argument name="handlers" xsi:type="array">
+                <item name="txnid" xsi:type="string">Pagadito\MPGC\Gateway\Response\TxnIdHandler</item>
+                <item name="fraud" xsi:type="string">Pagadito\MPGC\Gateway\Response\FraudHandler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <!-- Value handlers infrastructure -->
+    <virtualType name="MPGCValueHandlerPool" type="Magento\Payment\Gateway\Config\ValueHandlerPool">
+        <arguments>
+            <argument name="handlers" xsi:type="array">
+                <item name="default" xsi:type="string">MPGCConfigValueHandler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <virtualType name="MPGCConfigValueHandler" type="Magento\Payment\Gateway\Config\ConfigValueHandler">
+        <arguments>
+            <argument name="configInterface" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Pagadito\MPGC\Block\Info">
+        <arguments>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </type>
+
+    <type name="Pagadito\MPGC\Controller\Payment\PaymentLogic">
+        <arguments>
+            <argument name="context" xsi:type="object">Magento\Framework\App\Action\Context</argument>
+            <argument name="checkoutSession" xsi:type="object">Magento\Checkout\Model\Session</argument>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+        </arguments>
+    </type>
+
+    <type name="Pagadito\MPGC\Controller\Payment\Complete">
+        <arguments>
+            <argument name="context" xsi:type="object">Magento\Framework\App\Action\Context</argument>
+            <argument name="checkoutSession" xsi:type="object">Magento\Checkout\Model\Session</argument>
+            <argument name="resultPageFactory" xsi:type="object">Magento\Framework\View\Result\PageFactory</argument>
+            <argument name="config" xsi:type="object">MPGCConfig</argument>
+            <argument name="invoiceService" xsi:type="object">Magento\Sales\Model\Service\InvoiceService</argument>
+            <argument name="invoiceSender" xsi:type="object">Magento\Sales\Model\Order\Email\Sender\InvoiceSender</argument>
+            <argument name="transaction" xsi:type="object">Magento\Framework\DB\Transaction</argument>
+        </arguments>
+    </type>
+
+</config>

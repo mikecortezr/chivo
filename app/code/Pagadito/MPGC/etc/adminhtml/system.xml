@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="pagadito_gateway" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label><![CDATA[<img src="https://www.pagadito.com/img/vw_home/pg-logo-pagadito.jpg" alt="Pagadito.com" width="180px" />]]></label>
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="tax_title" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Tax title</label>
+                    <comment>If your transaction has taxes, you can change the name with which they appear in pagadito</comment>
+                </field>
+                <field id="currency" translate="label" type="select" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Currency</label>
+                    <source_model>Pagadito\MPGC\Model\Config\Source\MPGCCurrency</source_model>
+                    <comment>Select your currency</comment>
+                </field>
+                <field id="sandbox_mode" translate="label" type="select" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Sandbox mode</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>If you have a test, please select "Yes"</comment>
+                </field>
+                <field id="pg_production_uid" translate="label" type="text" sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Production UID</label>
+                    <comment>Enter your production UID</comment>
+                </field>
+                <field id="pg_production_wsk" translate="label" type="text" sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Production WSK</label>
+                    <comment>Enter your production WSK</comment>
+                </field>
+                <field id="pg_sandbox_uid" translate="label" type="text" sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Sandbox UID</label>
+                    <comment>Enter your sandbox UID</comment>
+                </field>
+                <field id="pg_sandbox_wsk" translate="label" type="text" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Sandbox WSK</label>
+                    <comment>Enter your sandbox WSK</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
