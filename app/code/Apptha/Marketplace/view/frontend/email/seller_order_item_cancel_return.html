@@ -1,4 +1,4 @@
-<!--@subject Your Item {{var actiontype}} successfully @-->
+<!--@subject Tu objeto fue {{var actiontype}} con éxito  @-->
 
 {{template config_path="design/email/header_template"}}
 <!-- pathe of template header-->
@@ -11,14 +11,14 @@
 	<tr>
 		<td valign="top">
 			<p style="font-size: 12px; line-height: 16px; margin: 0 0 16px 0;">
-				Hi {{var receivername}},<br />
-				<br /> Your order has been {{var actiontype}} by the {{var
+				Hola {{var receivername}},<br />
+				<br /> Su orden ha sido {{var actiontype}} por {{var
 				sellername}}.<br />
-				<br /> {{var requestperson}} Name: {{var requestperson_name}} <br />
-				Email id: {{var requestperson_email}}<br /> Order id: #{{var
+				<br /> {{var requestperson}} Nombre: {{var requestperson_name}} <br />
+				Email: {{var requestperson_email}}<br /> Pedido: #{{var
 				increment_id}}
 
-			</p> <b>{{var actiontype}} product(s) in the order : </b><br /> {{layout
+			</p> <b>Producto(s) en el pedido {{var actiontype}} : </b><br /> {{layout
 			handle="marketplace_order_items_request" order_id=$order_id
 			product_id=$product_id seller_id=$seller_id area="frontend"}}
 

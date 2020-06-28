@@ -1,4 +1,4 @@
-<!--@subject Low Stock Notification @-->
+<!--@subject Notificación de stock bajo en Chivo zhop @-->
 
 {{template config_path="design/email/header_template"}}
 <!-- pathe of template header-->
@@ -11,12 +11,12 @@
 	<tr>
 		<td valign="top">
 			<p style="font-size: 12px; line-height: 16px; margin: 0 0 16px 0;">
-				Hi {{var receivername}},<br />
-				<br />Your product quantity is very low. So please check below status and update the product.<br />
-				<br />Product Name                : {{var productname}} <br />
+				Hola {{var receivername}},<br />
+				<br />La cantidad de su producto es muy baja. Por lo tanto, compruebe el estado a continuación y actualice el producto.<br />
+				<br />Producto                  : {{var productname}} <br />
 				<br />SKU                         : {{var sku}} <br />
-				<br />Quantity                    : {{var qty}} <br />
-				<br />Allowed Minimum Quantity    : {{var minqty}} <br />
+				<br />Cantidad                    : {{var qty}} <br />
+				<br />Cantidad mínima permitida    : {{var minqty}} <br />
 		</td>
 	</tr>
 </table>
