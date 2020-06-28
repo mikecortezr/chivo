@@ -29,3 +29,4 @@
 [2020-06-28 04:59:54] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
 [2020-06-28 05:00:26] main.DEBUG: cache_invalidate:  {"method":"POST","url":"https://chivoz.com/setup/index.php/session/prolong","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
 [2020-06-28 08:09:24] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2020-06-28 08:58:10] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []

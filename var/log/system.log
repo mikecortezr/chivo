@@ -409,3 +409,353 @@
 [2020-06-28 08:20:25] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_general_configuration_slider was processed [] []
 [2020-06-28 08:20:25] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_custom_banners was processed [] []
 [2020-06-28 08:20:25] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_custom_sliders was processed [] []
+[2020-06-28 08:55:54] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::main_menu was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_sellers was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_products was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_transactions was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_payments was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_review was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_subscriptionplans was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::manage_subscriptionprofiles was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Marketplace::settings was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Vacationmode::parent was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Vacationmode::vacationmode was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Apptha_Vacationmode::settings was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backend::setup_wizard was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id Magento_Braintree::settlement_report was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_Documentation was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_HelpCenter was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_Licenses was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::Modules_License was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_Debugger was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_Debugger_Rewrites was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_Debugger_Modules was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::WeltPixel_Debugger_Developer was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_Backend::Pearl_Theme_Options was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_general_configuration_carousel was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_products_sliders was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlsliders was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_general_configuration_slider was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_custom_banners was processed [] []
+[2020-06-28 08:55:55] main.INFO: Add of item with id WeltPixel_OwlCarouselSlider::owlcarouselslider_custom_sliders was processed [] []
+[2020-06-28 09:00:31] main.INFO: /opt/alt/php71/usr/bin/php -f /home/b3mxujcwso00/public_html/bin/magento setup:di:compile 2>&1
+Compilation was started.
+%message% 0/7 [>---------------------------]   0% < 1 sec 50.0 MiB%message% 0/7 [>---------------------------]   0% < 1 sec 50.0 MiBProxies code generation... 0/7 [>---------------------------]   0% < 1 sec 50.0 MiB
+Proxies code generation... 1/7 [====>-----------------------]  14% 1 sec 52.0 MiB
+Repositories code generation... 1/7 [====>-----------------------]  14% 1 sec 52.0 MiB
+Repositories code generation... 2/7 [========>-------------------]  28% 1 min 158.0 MiB
+Service data attributes generation... 2/7 [========>-------------------]  28% 1 min 158.0 MiB
+Service data attributes generation... 3/7 [============>---------------]  42% 1 min 158.0 MiB
+Application code generator... 3/7 [============>---------------]  42% 1 min 158.0 MiB
+Application code generator... 4/7 [================>-----------]  57% 1 min 178.0 MiB
+Interceptors generation... 4/7 [================>-----------]  57% 1 min 178.0 MiB
+Interceptors generation... 5/7 [====================>-------]  71% 1 min 194.0 MiB
+Area configuration aggregation... 5/7 [====================>-------]  71% 1 min 194.0 MiB
+Area configuration aggregation... 6/7 [========================>---]  85% 2 mins 264.0 MiB
+Interception cache generation... 6/7 [========================>---]  85% 2 mins 264.0 MiB
+Interception cache generation... 7/7 [============================] 100% 2 mins 264.0 MiB
+Generated code and dependency injection configuration successfully. [] []
+[2020-06-28 09:04:04] main.INFO: /opt/alt/php71/usr/bin/php -f /home/b3mxujcwso00/public_html/bin/magento setup:static-content:deploy -f en_US 2>&1
+
+Deploy using quick strategy
+frontend/Magento/blank/en_US            0/2115              >--------------------------- 0% %    < 1 sec
+[1A[2Kfrontend/Magento/blank/en_US            18/2115             >--------------------------- 0% %    2 secs
+[1A[2Kfrontend/Magento/blank/en_US            79/2115             =>-------------------------- 3% %    3 secs
+[1A[2Kfrontend/Magento/blank/en_US            210/2115            ==>------------------------- 9% %    4 secs
+[1A[2Kfrontend/Magento/blank/en_US            221/2115            ==>------------------------- 10% %   5 secs
+[1A[2Kfrontend/Magento/blank/en_US            264/2115            ===>------------------------ 12% %   6 secs
+[1A[2Kfrontend/Magento/blank/en_US            270/2115            ===>------------------------ 12% %   17 secs
+[1A[2Kfrontend/Magento/blank/en_US            271/2115            ===>------------------------ 12% %   22 secs
+[1A[2Kfrontend/Magento/blank/en_US            295/2115            ===>------------------------ 13% %   23 secs
+[1A[2Kfrontend/Magento/blank/en_US            346/2115            ====>----------------------- 16% %   24 secs
+[1A[2Kfrontend/Magento/blank/en_US            408/2115            =====>---------------------- 19% %   25 secs
+[1A[2Kfrontend/Magento/blank/en_US            476/2115            ======>--------------------- 22% %   26 secs
+[1A[2Kfrontend/Magento/blank/en_US            559/2115            =======>-------------------- 26% %   27 secs
+[1A[2Kfrontend/Magento/blank/en_US            570/2115            =======>-------------------- 26% %   28 secs
+[1A[2Kfrontend/Magento/blank/en_US            598/2115            =======>-------------------- 28% %   29 secs
+[1A[2Kfrontend/Magento/blank/en_US            712/2115            =========>------------------ 33% %   30 secs
+[1A[2Kfrontend/Magento/blank/en_US            737/2115            =========>------------------ 34% %   32 secs
+[1A[2Kfrontend/Magento/blank/en_US            789/2115            ==========>----------------- 37% %   33 secs
+[1A[2Kfrontend/Magento/blank/en_US            970/2115            ============>--------------- 45% %   34 secs
+[1A[2Kfrontend/Magento/blank/en_US            1075/2115           ==============>------------- 50% %   35 secs
+[1A[2Kfrontend/Magento/blank/en_US            1083/2115           ==============>------------- 51% %   36 secs
+[1A[2Kfrontend/Magento/blank/en_US            1126/2115           ==============>------------- 53% %   37 secs
+[1A[2Kfrontend/Magento/blank/en_US            1141/2115           ===============>------------ 53% %   40 secs
+[1A[2Kfrontend/Magento/blank/en_US            1161/2115           ===============>------------ 54% %   41 secs
+[1A[2Kfrontend/Magento/blank/en_US            1177/2115           ===============>------------ 55% %   43 secs
+[1A[2Kfrontend/Magento/blank/en_US            1238/2115           ================>----------- 58% %   44 secs
+[1A[2Kfrontend/Magento/blank/en_US            1310/2115           =================>---------- 61% %   48 secs
+[1A[2Kfrontend/Magento/blank/en_US            1395/2115           ==================>--------- 65% %   49 secs
+[1A[2Kfrontend/Magento/blank/en_US            1523/2115           ====================>------- 72% %   50 secs
+[1A[2Kfrontend/Magento/blank/en_US            1605/2115           =====================>------ 75% %   51 secs
+[1A[2Kfrontend/Magento/blank/en_US            1660/2115           =====================>------ 78% %   52 secs
+[1A[2Kfrontend/Magento/blank/en_US            1680/2115           ======================>----- 79% %   55 secs
+[1A[2Kfrontend/Magento/blank/en_US            1694/2115           ======================>----- 80% %   56 secs
+[1A[2Kfrontend/Magento/blank/en_US            1742/2115           =======================>---- 82% %   57 secs
+[1A[2Kfrontend/Magento/blank/en_US            1784/2115           =======================>---- 84% %   59 secs
+[1A[2Kfrontend/Magento/blank/en_US            1790/2115           =======================>---- 84% %   1 min
+[1A[2Kfrontend/Magento/blank/en_US            1867/2115           ========================>--- 88% %   1 min
+[1A[2Kfrontend/Magento/blank/en_US            1980/2115           ==========================>- 93% %   1 min
+[1A[2Kfrontend/Magento/blank/en_US            2016/2115           ==========================>- 95% %   1 min
+[1A[2Kfrontend/Magento/blank/en_US            2019/2115           ==========================>- 95% %   1 min
+[1A[2Kfrontend/Magento/blank/en_US            2020/2115           ==========================>- 95% %   1 min
+[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         0/2072              >--------------------------- 0% %    2 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         148/2072            ==>------------------------- 7% %    3 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         220/2072            ==>------------------------- 10% %   4 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         264/2072            ===>------------------------ 12% %   6 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         269/2072            ===>------------------------ 12% %   7 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         302/2072            ====>----------------------- 14% %   9 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         360/2072            ====>----------------------- 17% %   10 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         439/2072            =====>---------------------- 21% %   12 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         464/2072            ======>--------------------- 22% %   13 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         473/2072            ======>--------------------- 22% %   16 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         498/2072            ======>--------------------- 24% %   17 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         669/2072            =========>------------------ 32% %   18 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         936/2072            ============>--------------- 45% %   19 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1087/2072           ==============>------------- 52% %   22 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1201/2072           ================>----------- 57% %   23 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1268/2072           =================>---------- 61% %   26 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1307/2072           =================>---------- 63% %   27 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1451/2072           ===================>-------- 70% %   28 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1581/2072           =====================>------ 76% %   29 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1651/2072           ======================>----- 79% %   30 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1750/2072           =======================>---- 84% %   31 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1859/2072           =========================>-- 89% %   35 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1860/2072           =========================>-- 89% %   43 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         1866/2072           =========================>-- 90% %   44 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2012/2072           ===========================> 97% %   45 secs
+[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             18/2131             >--------------------------- 0% %    3 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             26/2131             >--------------------------- 1% %    4 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             187/2131            ==>------------------------- 8% %    5 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             220/2131            ==>------------------------- 10% %   8 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             330/2131            ====>----------------------- 15% %   12 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             357/2131            ====>----------------------- 16% %   13 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             471/2131            ======>--------------------- 22% %   15 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             574/2131            =======>-------------------- 26% %   16 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             615/2131            ========>------------------- 28% %   17 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             681/2131            ========>------------------- 31% %   18 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             855/2131            ===========>---------------- 40% %   20 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             925/2131            ============>--------------- 43% %   21 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             977/2131            ============>--------------- 45% %   22 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1080/2131           ==============>------------- 50% %   23 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1092/2131           ==============>------------- 51% %   24 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1161/2131           ===============>------------ 54% %   26 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1269/2131           ================>----------- 59% %   27 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1422/2131           ==================>--------- 66% %   28 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1440/2131           ==================>--------- 67% %   32 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1575/2131           ====================>------- 73% %   33 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1677/2131           ======================>----- 78% %   36 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1680/2131           ======================>----- 78% %   37 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1732/2131           ======================>----- 81% %   38 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             1882/2131           ========================>--- 88% %   39 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2015/2131           ==========================>- 94% %   40 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2016/2131           ==========================>- 94% %   41 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2019/2131           ==========================>- 94% %   47 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2020/2131           ==========================>- 94% %   49 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2084/2131           ===========================> 97% %   51 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2121/2131           ===========================> 99% %   52 secs
+[1A[2K[1A[2K[1A[2Kfrontend/Magento/blank/en_US            2115/2115           ============================ 100% %  1 min
+adminhtml/Magento/backend/en_US         2072/2072           ============================ 100% %  45 secs
+frontend/Magento/luma/en_US             2131/2131           ============================ 100% %  52 secs
+
+Execution time: 208.84914398193 [] []
