@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593320952;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593332408;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><layout id="marketplaceadmin_allpayments_grid"><update handle="formkey"/>
 <update handle="marketplaceadmin_allpayments_grid_block"/>
@@ -8035,7 +8035,216 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593320952;s:6:"expire";i:9999999999;s:4:"t
    </block>
    <block class="Magento\Catalog\Block\Adminhtml\Product\Composite\Configure" template="Magento_Catalog::catalog/product/composite/configure.phtml" name="configure.popup"/>
 </container>
-</layout><handle id="default"><head>
+</layout><handle id="adminhtml_system_config_edit"><head>
+   <css src="Meetanshi_FacebookChat::css/meetanshi.css"/>
+</head>
+</handle><handle id="adminhtml_system_config_edit"><head>
+   <link src="WeltPixel_Backend::jscolor/jscolor.js"/>
+</head>
+</handle><handle id="default"><body>
+   <referenceContainer name="before.body.end">
+      <block class="Magento\Backend\Block\Template" template="WeltPixel_Backend::helpcenter/init.phtml"/>
+      <block class="Magento\Backend\Block\Template" template="WeltPixel_Backend::menu/adjustments.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="weltpixel_backend_debugger_modules"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <block class="WeltPixel\Backend\Block\Adminhtml\ModulesVersion" name="weltpixel_rewrites_modulesversion" template="WeltPixel_Backend::modules.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="weltpixel_backend_debugger_rewrites"><update handle="styles"/>
+<body>
+   <referenceContainer name="content">
+      <block class="WeltPixel\Backend\Block\Adminhtml\Debugger" name="weltpixel_rewrites_grid">
+         <block class="Magento\Backend\Block\Widget\Grid" name="weltpixel_rewrites_grid.grid" as="grid">
+            <arguments>
+               <argument name="dataSource" xsi:type="object">WeltPixel\Backend\Model\ResourceModel\Debugger\Grid\Collection</argument>
+               <argument name="pager_visibility" xsi:type="string">0</argument>
+            </arguments>
+            <block class="Magento\Backend\Block\Widget\Grid\ColumnSet" name="weltpixel_rewrites_grid.grid.columnSet" as="grid.columnSet">
+               <arguments>
+                  <argument name="filter_visibility" xsi:type="string">1</argument>
+               </arguments>
+               <block class="Magento\Backend\Block\Widget\Grid\Column" as="area">
+                  <arguments>
+                     <argument name="header" translate="true" xsi:type="string">Area</argument>
+                     <argument name="index" xsi:type="string">area</argument>
+                     <argument name="sortable" xsi:type="string">0</argument>
+                     <argument name="filter" xsi:type="string">0</argument>
+                  </arguments>
+               </block>
+               <block class="Magento\Backend\Block\Widget\Grid\Column" as="original_class">
+                  <arguments>
+                     <argument name="header" translate="true" xsi:type="string">Original Class</argument>
+                     <argument name="index" xsi:type="string">original_class</argument>
+                     <argument name="sortable" xsi:type="string">0</argument>
+                  </arguments>
+               </block>
+               <block class="Magento\Backend\Block\Widget\Grid\Column" as="rewrite_class">
+                  <arguments>
+                     <argument name="header" translate="true" xsi:type="string">Rewrite Class</argument>
+                     <argument name="index" xsi:type="string">rewrite_class</argument>
+                     <argument name="sortable" xsi:type="string">0</argument>
+                     <argument name="filter" xsi:type="string">0</argument>
+                  </arguments>
+               </block>
+               <block class="Magento\Backend\Block\Widget\Grid\Column" as="status">
+                  <arguments>
+                     <argument name="header" translate="true" xsi:type="string">Status</argument>
+                     <argument name="filter" xsi:type="string">0</argument>
+                     <argument name="sortable" xsi:type="string">0</argument>
+                     <argument name="renderer" xsi:type="string">WeltPixel\Backend\Block\Adminhtml\Grid\Renderer\RewriteStatus</argument>
+                     <argument name="header_css_class" xsi:type="string">col-rewrite-status</argument>
+                  </arguments>
+               </block>
+            </block>
+         </block>
+      </block>
+   </referenceContainer>
+</body>
+</handle><handle id="weltpixel_backend_licenses_index"><update handle="styles"/>
+<head>
+   <title>
+            WeltPixel Licenses
+        </title>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block class="WeltPixel\Backend\Block\Adminhtml\Licenses" name="weltpixel_licenses" template="WeltPixel_Backend::licenses/list.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="weltpixel_license_needed" layout="admin-1column"><head>
+   <title>WeltPixel License Key Needed</title>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block class="WeltPixel\Backend\Block\Adminhtml\Licenses" name="license.needed" template="WeltPixel_Backend::licenses/license_needed.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="weltowlcarousel_banner_edit" layout="admin-2columns-left"><head>
+   <title>WeltPixel Banners Manager</title>
+</head>
+<body>
+   <referenceBlock name="menu">
+      <action method="setActive">
+         <argument name="itemId" xsi:type="string">WeltPixel_OwlCarouselSlider::OwlCarouselBanners</argument>
+      </action>
+   </referenceBlock>
+   <referenceContainer name="content">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Banner\Edit" name="banner_edit"/>
+   </referenceContainer>
+   <referenceContainer name="left">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Banner\Edit\Tabs" name="banner_edit_tabs">
+         <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Banner\Edit\Tab\Banner" name="banner_edit_tab_banner"/>
+         <action method="addTab">
+            <argument name="name" xsi:type="string">main_section</argument>
+            <argument name="block" xsi:type="string">banner_edit_tab_banner</argument>
+         </action>
+      </block>
+   </referenceContainer>
+</body>
+</handle><layout id="weltowlcarousel_banner_grid"><update handle="formkey"/>
+<container name="root">
+   <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Banner\Grid" name="admin.block.banner.grid"/>
+</container>
+</layout><handle id="weltowlcarousel_banner_index"><update handle="formkey"/>
+<head>
+   <title>WeltPixel Banners Manager</title>
+</head>
+<body>
+   <referenceBlock name="menu">
+      <action method="setActive">
+         <argument name="itemId" xsi:type="string">WeltPixel_OwlCarouselSlider::OwlCarouselBanners</argument>
+      </action>
+   </referenceBlock>
+   <referenceBlock name="page.title">
+      <action method="setPageTitle">
+         <argument name="pageTitle" xsi:type="string">WeltPixel Banners Manager</argument>
+      </action>
+   </referenceBlock>
+   <referenceContainer name="content">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Banner" name="admin.block.banner.grid.container"/>
+   </referenceContainer>
+</body>
+</handle><handle id="weltowlcarousel_banner_new"><update handle="weltowlcarousel_banner_edit"/>
+</handle><handle id="weltowlcarousel_index_index"><update handle="formkey"/>
+<body>
+   <referenceContainer name="content">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Banner" name="admin.block.banner.grid.container"/>
+   </referenceContainer>
+</body>
+</handle><layout id="weltowlcarousel_slider_banners"><container name="root" label="Root">
+   <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider\Edit\Tab\Banners" name="owlcarouselslider.slider.edit.tab.banners"/>
+   <block class="Magento\Backend\Block\Widget\Grid\Serializer" name="crosssell_grid_serializer">
+      <arguments>
+         <argument name="input_names" xsi:type="string">sort_order</argument>
+         <argument name="grid_block" xsi:type="string">owlcarouselslider.slider.edit.tab.banners</argument>
+         <argument name="callback" xsi:type="string">getSelectedSliderBanners</argument>
+         <argument name="input_element_name" xsi:type="string">slider_banner</argument>
+         <argument name="reload_param_name" xsi:type="string">banner</argument>
+      </arguments>
+   </block>
+</container>
+</layout><layout id="weltowlcarousel_slider_bannersgrid"><container name="root" label="Root">
+   <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider\Edit\Tab\Banners" name="owlcarouselslider.slider.edit.tab.banners"/>
+</container>
+</layout><handle id="weltowlcarousel_slider_edit" layout="admin-2columns-left"><head>
+   <title>WeltPixel Sliders Manager</title>
+</head>
+<body>
+   <referenceBlock name="menu">
+      <action method="setActive">
+         <argument name="itemId" xsi:type="string">WeltPixel_OwlCarouselSlider::OwlCarouselSliders</argument>
+      </action>
+   </referenceBlock>
+   <referenceContainer name="content">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider\Edit" name="banner_edit"/>
+   </referenceContainer>
+   <referenceContainer name="left">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider\Edit\Tabs" name="banner_edit_tabs">
+         <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider\Edit\Tab\Form" name="banner_edit_tab_form"/>
+         <action method="addTab">
+            <argument name="name" xsi:type="string">main_section</argument>
+            <argument name="block" xsi:type="string">banner_edit_tab_form</argument>
+         </action>
+         <action method="addTab">
+            <argument name="name" xsi:type="string">banner_section</argument>
+            <argument name="block" xsi:type="array">
+               <item name="label" xsi:type="string">Slider Banners</item>
+               <item name="title" xsi:type="string">Slider Banners</item>
+               <item name="url" helper="WeltPixel\OwlCarouselSlider\Helper\Data::getSliderBannerUrl" xsi:type="helper"/>
+               <item name="class" xsi:type="string">ajax</item>
+            </argument>
+         </action>
+      </block>
+   </referenceContainer>
+</body>
+</handle><layout id="weltowlcarousel_slider_grid"><update handle="formkey"/>
+<container name="root">
+   <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider\Grid" name="admin.block.slider.grid"/>
+</container>
+</layout><handle id="weltowlcarousel_slider_index"><update handle="formkey"/>
+<head>
+   <title>WeltPixel Sliders Manager</title>
+</head>
+<body>
+   <referenceBlock name="menu">
+      <action method="setActive">
+         <argument name="itemId" xsi:type="string">WeltPixel_OwlCarouselSlider::OwlCarouselSliders</argument>
+      </action>
+   </referenceBlock>
+   <referenceBlock name="page.title">
+      <action method="setPageTitle">
+         <argument name="pageTitle" xsi:type="string">Sliders Manager</argument>
+      </action>
+   </referenceBlock>
+   <referenceContainer name="content">
+      <block class="WeltPixel\OwlCarouselSlider\Block\Adminhtml\Slider" name="admin.block.slider.grid.container"/>
+   </referenceContainer>
+</body>
+</handle><handle id="weltowlcarousel_slider_new"><update handle="weltowlcarousel_slider_edit"/>
+</handle><handle id="default"><head>
    <css src="jquery/jstree/themes/default/style.css"/>
    <css src="css/styles-old.css"/>
    <css src="css/styles.css"/>

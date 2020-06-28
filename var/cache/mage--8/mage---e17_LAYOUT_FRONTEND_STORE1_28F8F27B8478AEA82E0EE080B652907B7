@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593322003;s:6:"expire";i:9999999999;s:4:"tags";s:80:"e17_DEFAULT,e17_CATALOGSEARCH_RESULT_INDEX,e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593332318;s:6:"expire";i:9999999999;s:4:"tags";s:80:"e17_DEFAULT,e17_CATALOGSEARCH_RESULT_INDEX,e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
 <body>
    <referenceBlock name="header.links">
       <block class="Apptha\Marketplace\Block\Seller\Link" name="sellerlink" after="-"/>
@@ -637,6 +637,14 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593322003;s:6:"expire";i:9999999999;s:4:"t
       <block class="Magento\Wishlist\Block\Customer\Sidebar" name="wishlist_sidebar" as="wishlist" template="Magento_Wishlist::sidebar.phtml"/>
    </referenceContainer>
 </body>
+<body>
+   <referenceContainer name="before.body.end">
+      <block class="Meetanshi\FacebookChat\Block\Messenger" name="meetanshi_fb_block" as="meetanshi_fb_block" template="Meetanshi_FacebookChat::messenger_script.phtml"/>
+   </referenceContainer>
+</body>
+<head>
+   <css src="WeltPixel_OwlCarouselSlider::css/owl.carousel.css"/>
+</head>
 <body>
    <referenceContainer name="header.panel">
       <block class="Magento\Framework\View\Element\Html\Links" name="header.links">

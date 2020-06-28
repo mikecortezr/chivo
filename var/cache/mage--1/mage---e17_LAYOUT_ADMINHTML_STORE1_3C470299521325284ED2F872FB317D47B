@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593323159;s:6:"expire";i:9999999999;s:4:"tags";s:74:"e17_DEFAULT,e17_ADMINHTML_AUTH_LOGIN,e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593332408;s:6:"expire";i:9999999999;s:4:"tags";s:74:"e17_DEFAULT,e17_ADMINHTML_AUTH_LOGIN,e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
 <head>
    <title>Magento Admin</title>
    <meta name="viewport" content="width=1024"/>
@@ -95,6 +95,12 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593323159;s:6:"expire";i:9999999999;s:4:"t
 <body>
    <referenceContainer name="after.body.start">
       <block class="Magento\Ui\Block\Logger" name="logger" template="Magento_Ui::logger.phtml"/>
+   </referenceContainer>
+</body>
+<body>
+   <referenceContainer name="before.body.end">
+      <block class="Magento\Backend\Block\Template" template="WeltPixel_Backend::helpcenter/init.phtml"/>
+      <block class="Magento\Backend\Block\Template" template="WeltPixel_Backend::menu/adjustments.phtml"/>
    </referenceContainer>
 </body>
 <head>

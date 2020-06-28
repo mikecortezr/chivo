@@ -119,5 +119,10 @@ return array (
     'Magento_CatalogWidget' => 1,
     'Magento_Wishlist' => 1,
     'Magento_WishlistAnalytics' => 1,
+    'Meetanshi_FacebookChat' => 1,
+    'Pagadito_MPGC' => 1,
+    'Tun2U_AutoRelated' => 1,
+    'WeltPixel_Backend' => 1,
+    'WeltPixel_OwlCarouselSlider' => 1,
   ),
 );

@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593320927;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593332318;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view" layout="2columns-left"><head>
    <css src="Apptha_Marketplace::css/style.css"/>
@@ -6862,6 +6862,77 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593320927;s:6:"expire";i:9999999999;s:4:"t
       <block class="Magento\Wishlist\Block\Share\Wishlist" name="customer.wishlist" template="Magento_Wishlist::shared.phtml" cacheable="false"/>
    </referenceContainer>
 </body>
+</handle><handle id="default"><body>
+   <referenceContainer name="before.body.end">
+      <block class="Meetanshi\FacebookChat\Block\Messenger" name="meetanshi_fb_block" as="meetanshi_fb_block" template="Meetanshi_FacebookChat::messenger_script.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="checkout_index_index" layout="1column"><body>
+   <referenceBlock name="checkout.root">
+      <arguments>
+         <argument name="jsLayout" xsi:type="array">
+            <item name="components" xsi:type="array">
+               <item name="checkout" xsi:type="array">
+                  <item name="children" xsi:type="array">
+                     <item name="steps" xsi:type="array">
+                        <item name="children" xsi:type="array">
+                           <item name="billing-step" xsi:type="array">
+                              <item name="component" xsi:type="string">uiComponent</item>
+                              <item name="children" xsi:type="array">
+                                 <item name="payment" xsi:type="array">
+                                    <item name="children" xsi:type="array">
+                                       <item name="renders" xsi:type="array">
+                                          <item name="children" xsi:type="array">
+                                             <item name="pagadito_gateway" xsi:type="array">
+                                                <item name="component" xsi:type="string">Pagadito_MPGC/js/view/payment/pagadito_gateway</item>
+                                                <item name="methods" xsi:type="array">
+                                                   <item name="pagadito_gateway" xsi:type="array">
+                                                      <item name="isBillingAddressRequired" xsi:type="boolean">true</item>
+                                                   </item>
+                                                </item>
+                                             </item>
+                                          </item>
+                                       </item>
+                                    </item>
+                                 </item>
+                              </item>
+                           </item>
+                        </item>
+                     </item>
+                  </item>
+               </item>
+            </item>
+         </argument>
+      </arguments>
+   </referenceBlock>
+</body>
+</handle><handle id="pagadito_payment_complete" layout="1column"><body>
+   <referenceContainer name="content">
+      <block class="Pagadito\MPGC\Block\Complete" name="complete" template="complete.phtml" cacheable="false"/>
+   </referenceContainer>
+</body>
+</handle><handle id="catalog_product_view"><body>
+   <referenceBlock name="catalog.product.related">
+      <action method="setTemplate" ifconfig="weltpixel_owl_carousel_config/related_products/status">
+         <argument name="template" xsi:type="string">WeltPixel_OwlCarouselSlider::product/list/items.phtml</argument>
+      </action>
+   </referenceBlock>
+   <referenceBlock name="product.info.upsell">
+      <action method="setTemplate" ifconfig="weltpixel_owl_carousel_config/upsell_products/status">
+         <argument name="template" xsi:type="string">WeltPixel_OwlCarouselSlider::product/list/items.phtml</argument>
+      </action>
+   </referenceBlock>
+</body>
+</handle><handle id="checkout_cart_index"><body>
+   <referenceBlock name="checkout.cart.crosssell">
+      <action method="setTemplate" ifconfig="weltpixel_owl_carousel_config/crosssell_products/status">
+         <argument name="template" xsi:type="string">WeltPixel_OwlCarouselSlider::product/list/items.phtml</argument>
+      </action>
+   </referenceBlock>
+</body>
+</handle><handle id="default"><head>
+   <css src="WeltPixel_OwlCarouselSlider::css/owl.carousel.css"/>
+</head>
 </handle><handle id="default_head_blocks"><head>
    <css src="css/styles-m.css"/>
    <css src="css/styles-l.css" media="screen and (min-width: 768px)"/>
