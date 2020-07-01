@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593336449;s:6:"expire";i:9999999999;s:4:"tags";s:115:"e17_DEFAULT,e17_CMS_INDEX_INDEX,e17_CMS_PAGE_VIEW,e17_CMS_INDEX_INDEX_ID_HOME,e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593563109;s:6:"expire";i:9999999999;s:4:"tags";s:115:"e17_DEFAULT,e17_CMS_INDEX_INDEX,e17_CMS_PAGE_VIEW,e17_CMS_INDEX_INDEX_ID_HOME,e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
 <!--
     <referenceContainer name="right">
         <referenceBlock name="catalog.compare.sidebar" remove="true" />
@@ -220,14 +220,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593336449;s:6:"expire";i:9999999999;s:4:"t
    </referenceBlock>
 </body>
 <body>
-   <block class="Magento\Framework\Pricing\Render" name="product.price.render.default">
-      <arguments>
-         <argument name="price_render_handle" xsi:type="string">catalog_product_prices</argument>
-         <argument name="use_link_for_as_low_as" xsi:type="boolean">true</argument>
-      </arguments>
-   </block>
-</body>
-<body>
    <referenceContainer name="before.body.end">
       <block class="Magento\Catalog\Block\FrontendStorageManager" name="frontend-storage-manager" before="-" template="Magento_Catalog::frontend_storage_manager.phtml">
          <arguments>
@@ -281,6 +273,14 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593336449;s:6:"expire";i:9999999999;s:4:"t
       <block class="Magento\Framework\View\Element\Js\Components" name="head.components" as="components" template="Magento_Catalog::js/components.phtml"/>
    </referenceContainer>
    <block class="Magento\Framework\View\Element\Template" name="head.additional" as="head.additional" template="Magento_Theme::html/container.phtml"/>
+</body>
+<body>
+   <block class="Magento\Framework\Pricing\Render" name="product.price.render.default">
+      <arguments>
+         <argument name="price_render_handle" xsi:type="string">catalog_product_prices</argument>
+         <argument name="use_link_for_as_low_as" xsi:type="boolean">true</argument>
+      </arguments>
+   </block>
 </body>
 <body>
    <referenceContainer name="header-wrapper">

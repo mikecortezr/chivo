@@ -1,0 +1,7 @@
+[01-Jul-2020 00:25:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function WeltPixel\OwlCarouselSlider\Controller\Recentlyviewed\setProductIds() in /home/b3mxujcwso00/public_html/app/code/WeltPixel/OwlCarouselSlider/Controller/Recentlyviewed/Index.php:101
+Stack trace:
+#0 /home/b3mxujcwso00/public_html/generated/code/WeltPixel/OwlCarouselSlider/Controller/Recentlyviewed/Index/Interceptor.php(24): WeltPixel\OwlCarouselSlider\Controller\Recentlyviewed\Index->execute()
+#1 /home/b3mxujcwso00/public_html/lib/internal/Magento/Framework/App/Action/Action.php(107): WeltPixel\OwlCarouselSlider\Controller\Recentlyviewed\Index\Interceptor->execute()
+#2 /home/b3mxujcwso00/public_html/lib/internal/Magento/Framework/Interception/Interceptor.php(58): Magento\Framework\App\Action\Action->dispatch(Object(Magento\Framework\App\Request\Http))
+#3 /home/b3mxujcwso00/public_html/lib/internal/Magento/Framework/Interception/Interceptor.php(138): WeltPixel\OwlCarouselSlider\Controller\Recentlyviewed\Index\Interceptor->___callParent('dispatch', Array)
+#4 /home/b3mxuj in /home/b3mxujcwso00/public_html/app/code/WeltPixel/OwlCarouselSlider/Controller/Recentlyviewed/Index.php on line 101
