@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593562592;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593571559;s:6:"expire";i:9999999999;s:4:"tags";s:37:"e17_LAYOUT_GENERAL_CACHE_TAG,e17_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view" layout="2columns-left"><head>
    <css src="Apptha_Marketplace::css/style.css"/>
@@ -990,6 +990,16 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593562592;s:6:"expire";i:9999999999;s:4:"t
    <referenceContainer name="content">
       <block class="Apptha\Vacationmode\Block\Index\Index" name="vacationmode_seller_vacationmode" template="Apptha_Vacationmode::vacationmode.phtml"/>
    </referenceContainer>
+</body>
+</handle><handle id="catalog_product_view" layout="2columns-left"><head>
+   <css src="Bgehlot_AutoRelatedProducts::css/flexslider.css"/>
+</head>
+<body>
+   <referenceBlock name="catalog.product.related">
+      <action method="setTemplate">
+         <argument name="template" xsi:type="string">Bgehlot_AutoRelatedProducts::products/list/items.phtml</argument>
+      </action>
+   </referenceBlock>
 </body>
 </handle><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>

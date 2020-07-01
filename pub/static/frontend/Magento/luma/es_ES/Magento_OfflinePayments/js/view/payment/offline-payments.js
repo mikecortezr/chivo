@@ -1,0 +1,1 @@
+/home/b3mxujcwso00/public_html/app/code/Magento/OfflinePayments/view/frontend/web/js/view/payment/offline-payments.js

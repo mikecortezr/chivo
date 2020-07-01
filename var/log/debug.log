@@ -39,3 +39,4 @@
 [2020-06-30 03:34:19] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
 [2020-06-30 23:58:27] main.DEBUG: cache_invalidate:  {"method":"GET","url":"https://chivoz.com/favicon.ico","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
 [2020-07-01 00:14:24] main.DEBUG: cache_invalidate:  {"method":"GET","url":"https://chivoz.com/admin/admin/cache/index/key/7c0765def51dda86cc5d1aed337a0f622b2ce18ad90fe49d755f6b7eb236589a/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2020-07-01 00:54:54] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []

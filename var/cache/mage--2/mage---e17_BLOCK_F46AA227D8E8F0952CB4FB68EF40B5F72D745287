@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593563112;s:6:"expire";i:1593649512;s:4:"tags";s:33:"e17_CAT_P,e17_BLOCK_HTML,e17_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593571566;s:6:"expire";i:1593657966;s:4:"tags";s:33:"e17_CAT_P,e17_BLOCK_HTML,e17_MAGE";}
 
 
 
@@ -7,68 +7,6 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593563112;s:6:"expire";i:1593649512;s:4:"t
             <h2 class="title">Lo más Nuevo</h2>
         </div>
                 <div class="owl-carousel-products-new_products ">
-            
-                
-                <div class="item product product-item">
-                    <div data-container="product-grid" class="product-item-info">
-                        <a tabindex="-1" class="product photo product-item-photo" href="https://chivoz.com/iphone-6.html">
-                            <span style="width:240px;" class="product-image-container">
-                                <span style="padding-bottom: 125%;" class="product-image-wrapper">
-                                    <img width="240" height="300"
-                                         alt="IPhone 6"
-                                                                                 class="product-image-photo owl-lazy"
-                                        data-src="https://chivoz.com/pub/media/catalog/product/cache/fecb8be0a2d1b192bb57c59923bad997/a/p/apple-iphone-6-plus-648.jpg" data-src-retina="https://chivoz.com/pub/media/catalog/product/cache/fecb8be0a2d1b192bb57c59923bad997/a/p/apple-iphone-6-plus-648.jpg"                                    />
-                                </span>
-                            </span>
-                        </a>
-                        <div class="product details product-item-details">
-                            <strong class="product name product-item-name">
-                                <a href="https://chivoz.com/iphone-6.html" class="product-item-link">
-                                    IPhone 6                                </a>
-                            </strong>
-                                                            <div class="price-box price-final_price" data-role="priceBox" data-product-id="1">
-    
-
-<span class="price-container price-final_price tax weee"
-        >
-        <span  id="product-price-1"                data-price-amount="300"
-        data-price-type="finalPrice"
-        class="price-wrapper ">
-        <span class="price">300,00 $</span>    </span>
-        </span>
-
-</div>                                                        <div class="product-item-inner">
-                                <div class="product actions product-item-actions">
-
-                                                                            <div class="actions-primary">
-                                                                                                                                                                                                    <button class="action tocart primary"
-                                                            data-post='{"action":"https:\/\/chivoz.com\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9jaGl2b3ouY29tLw%2C%2C\/product\/1\/","data":{"product":"1","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'
-                                                            type="button" title="Añadir al carrito">
-                                                        <span>Añadir al carrito</span>
-                                                    </button>
-                                                                                                                                    </div>
-                                    
-                                    <div class="actions-secondary" data-role="add-to-links">
-                                                                                    <div class="secondary-addto-links actions-secondary" data-role="add-to-links">
-
-                                                                                                    <a href="#" data-post='{"action":"https:\/\/chivoz.com\/wishlist\/index\/add\/","data":{"product":"1","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'  class="action towishlist" data-action="add-to-wishlist" title="Agregar a los favoritos">
-                                                        <span>Agregar a los favoritos</span>
-                                                    </a>
-                                                
-                                                                                                                                                        <a href="#" class="action tocompare"
-                                                       data-post='{"action":"https:\/\/chivoz.com\/catalog\/product_compare\/add\/","data":{"product":"1","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'
-                                                       data-role="add-to-links"
-                                                       title="Añadir para comparar">
-                                                        <span>Añadir para comparar</span>
-                                                    </a>
-                                                                                            </div>
-                                                                            </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             
                 
                 <div class="item product product-item">
@@ -181,6 +119,68 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593563112;s:6:"expire";i:1593649512;s:4:"t
                                                 
                                                                                                                                                         <a href="#" class="action tocompare"
                                                        data-post='{"action":"https:\/\/chivoz.com\/catalog\/product_compare\/add\/","data":{"product":"3","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'
+                                                       data-role="add-to-links"
+                                                       title="Añadir para comparar">
+                                                        <span>Añadir para comparar</span>
+                                                    </a>
+                                                                                            </div>
+                                                                            </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+                <div class="item product product-item">
+                    <div data-container="product-grid" class="product-item-info">
+                        <a tabindex="-1" class="product photo product-item-photo" href="https://chivoz.com/iphone-6.html">
+                            <span style="width:240px;" class="product-image-container">
+                                <span style="padding-bottom: 125%;" class="product-image-wrapper">
+                                    <img width="240" height="300"
+                                         alt="IPhone 6"
+                                                                                 class="product-image-photo owl-lazy"
+                                        data-src="https://chivoz.com/pub/media/catalog/product/cache/fecb8be0a2d1b192bb57c59923bad997/a/p/apple-iphone-6-plus-648.jpg" data-src-retina="https://chivoz.com/pub/media/catalog/product/cache/fecb8be0a2d1b192bb57c59923bad997/a/p/apple-iphone-6-plus-648.jpg"                                    />
+                                </span>
+                            </span>
+                        </a>
+                        <div class="product details product-item-details">
+                            <strong class="product name product-item-name">
+                                <a href="https://chivoz.com/iphone-6.html" class="product-item-link">
+                                    IPhone 6                                </a>
+                            </strong>
+                                                            <div class="price-box price-final_price" data-role="priceBox" data-product-id="1">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="product-price-1"                data-price-amount="300"
+        data-price-type="finalPrice"
+        class="price-wrapper ">
+        <span class="price">300,00 $</span>    </span>
+        </span>
+
+</div>                                                        <div class="product-item-inner">
+                                <div class="product actions product-item-actions">
+
+                                                                            <div class="actions-primary">
+                                                                                                                                                                                                    <button class="action tocart primary"
+                                                            data-post='{"action":"https:\/\/chivoz.com\/checkout\/cart\/add\/uenc\/aHR0cHM6Ly9jaGl2b3ouY29tLw%2C%2C\/product\/1\/","data":{"product":"1","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'
+                                                            type="button" title="Añadir al carrito">
+                                                        <span>Añadir al carrito</span>
+                                                    </button>
+                                                                                                                                    </div>
+                                    
+                                    <div class="actions-secondary" data-role="add-to-links">
+                                                                                    <div class="secondary-addto-links actions-secondary" data-role="add-to-links">
+
+                                                                                                    <a href="#" data-post='{"action":"https:\/\/chivoz.com\/wishlist\/index\/add\/","data":{"product":"1","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'  class="action towishlist" data-action="add-to-wishlist" title="Agregar a los favoritos">
+                                                        <span>Agregar a los favoritos</span>
+                                                    </a>
+                                                
+                                                                                                                                                        <a href="#" class="action tocompare"
+                                                       data-post='{"action":"https:\/\/chivoz.com\/catalog\/product_compare\/add\/","data":{"product":"1","uenc":"aHR0cHM6Ly9jaGl2b3ouY29tLw,,"}}'
                                                        data-role="add-to-links"
                                                        title="Añadir para comparar">
                                                         <span>Añadir para comparar</span>

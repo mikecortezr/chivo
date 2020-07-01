@@ -72,6 +72,8 @@ class Complete  extends Action
             case 'COMPLETED':
                 $titulo = 'Su compra fue exitosa';
                 $completada = true;
+                /*
+                Se quita que haga las facturas
                 if($order->canInvoice()) {
                     $invoice = $this->invoiceService->prepareInvoice($order);
                     $invoice->register();
@@ -93,9 +95,14 @@ class Complete  extends Action
                     $order->addStatusHistoryComment(
                         __('Invoice no pudo ser creado.')
                     );
-                }
+                }*/
+                /*
                 $orderState = Order::STATE_COMPLETE;
-                $order->setState($orderState)->setStatus(Order::STATE_COMPLETE);
+                $order->setState($orderState)->setStatus(Order::STATE_COMPLETE);*/
+                $orderState = Order::STATE_NEW;
+                $orderStatus ="pending";
+                $order->setState($orderState)->setStatus($orderStatus);
+                ///////
                 $model = $this->_objectManager->create('Pagadito\MPGC\Model\PagaditoOrder');
                 $model->load($order->getIncrementId())->addData([
                     "pagadito_ref" => $referencia
@@ -126,7 +133,13 @@ class Complete  extends Action
         $resultPage->getLayout()->getBlock('complete')->setTitulo($titulo);
         $resultPage->getLayout()->getBlock('complete')->setFechaPago($fecha_pago);
         $resultPage->getLayout()->getBlock('complete')->setCompletada($completada);
-
-        return $resultPage;
+        ///se agrega mi propia funcion 
+        // include 'mi_funcion.php';
+        /////////////////
+        //return $resultPage;
+        //header('Location: /checkout/onepage/success/');
+        echo '<script type="text/javascript">';
+        echo 'window.location="/checkout/onepage/success/";';
+        echo '</script>';
     }
 }

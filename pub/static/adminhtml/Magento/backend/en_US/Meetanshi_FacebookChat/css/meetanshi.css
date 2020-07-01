@@ -1,1 +1,9 @@
-/home/b3mxujcwso00/public_html/app/code/Meetanshi/FacebookChat/view/adminhtml/web/css/meetanshi.css
+.meetanshi .title:before {
+    background-image: url(https://meetanshi.com/media/logo.png);
+    background-size: 150px 19px;
+    display: inline-block;
+    width: 150px;
+    height: 19px;
+    content: "";
+    background-repeat: no-repeat;
+}

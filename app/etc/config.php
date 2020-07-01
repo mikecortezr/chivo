@@ -4,6 +4,7 @@ return array (
   array (
     'Apptha_Marketplace' => 1,
     'Apptha_Vacationmode' => 1,
+    'Bgehlot_AutoRelatedProducts' => 1,
     'Magento_Store' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
     'Magento_Directory' => 1,

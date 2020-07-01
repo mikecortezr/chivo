@@ -1,1 +1,0 @@
-/home/b3mxujcwso00/public_html/lib/web/mage/adminhtml/wysiwyg/tiny_mce/html5-schema.js

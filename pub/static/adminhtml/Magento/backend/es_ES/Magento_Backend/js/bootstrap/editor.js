@@ -1,1 +1,0 @@
-/home/b3mxujcwso00/public_html/app/code/Magento/Backend/view/adminhtml/web/js/bootstrap/editor.js

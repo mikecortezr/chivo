@@ -1,1 +1,0 @@
-/home/b3mxujcwso00/public_html/app/code/Magento/Variable/view/adminhtml/web/variables.js

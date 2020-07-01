@@ -1,1 +1,0 @@
-/home/b3mxujcwso00/public_html/app/code/WeltPixel/Backend/view/adminhtml/web/jscolor/jscolor.js
