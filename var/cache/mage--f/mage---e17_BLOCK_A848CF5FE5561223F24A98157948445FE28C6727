@@ -1,0 +1,15 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1593759417;s:6:"expire";i:1593845817;s:4:"tags";s:33:"e17_CAT_P,e17_BLOCK_HTML,e17_MAGE";}
+
+
+<div id="recently_viewed"></div>
+
+<script type="text/x-magento-init">
+{
+    "#recently_viewed": {
+        "owlAjax": {
+            "ajaxUrl": "https://chivoz.com/ajaxowl/recentlyviewed/index/",
+            "requestType": "recently_viewed"
+        }
+    }
+}
+</script>
