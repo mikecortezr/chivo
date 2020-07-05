@@ -71,18 +71,6 @@ class="input-text address" data-validate="{required:true}"><?php echo strip_tags
 </div>
 </div>
 </div>
-<div class="fields">
-<div class="field state required">
-<label for="state" class="label"><span><?php  echo __('State') ?></span></label>
-<div class="control">
-<input type="text" name="state" alt="state"
-value="<?php echo $sellerDetails->getState();?>" id="state"
-class="input-text"
-data-validate="{required:true,'validate-state':true}">
-</div>
-<div id="stateerror"></div>
-</div>
-</div>
 
 <div class="field country required">
 <label for="country" class="label"><span><?php /* @escapeNotVerified */ echo __('Country') ?></span></label>
@@ -104,6 +92,18 @@ echo $country->getName ();
 </div>
 </div>
 
+<div class="fields">
+<div class="field state required">
+<label for="state" class="label"><span><?php  echo __('Municipio') ?></span></label>
+<div class="control">
+<input type="text" name="state" alt="state"
+value="<?php echo $sellerDetails->getState();?>" id="state"
+class="input-text"
+data-validate="{required:true,'validate-state':true}">
+</div>
+<div id="stateerror"></div>
+</div>
+</div>
       <?php
 /**
  * Checking whether seller store shipping enable or not
@@ -291,13 +291,12 @@ value="<?php echo $sellerDetails->getStoreUrl(); ?>" />
 type="checkbox" name="show_profile"
 value="<?php echo $sellerDetails->getShowProfile();?>"
 <?php if($sellerDetails->getShowProfile() == 1){ echo 'checked';} ?> />
-<label for="show_profile_link">Display your profile link in product
-detail page</label>
+<label for="show_profile_link">Mostrar el enlace de tu perfil en la página de detalles del producto</label>
 </div>
 </div>
 <button type="submit" class="button validation-passed"
 title="Save Profile" name="save_profile" id="save_profile">
-<span><span>Save Profile</span></span>
+<span><span>Guardar Perfil</span></span>
 </button>
 </fieldset>
 </form>

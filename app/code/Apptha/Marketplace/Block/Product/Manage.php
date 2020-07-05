@@ -111,7 +111,7 @@ class Manage extends \Magento\Framework\View\Element\Template {
          * @var \Magento\Theme\Block\Html\Pager
          */
         $pager = $this->getLayout ()->createBlock ( 'Magento\Theme\Block\Html\Pager', 'marketplace.product.list.pager' );
-        $pager->setLimit ( 10 )->setShowAmounts ( false )->setCollection ( $this->getCollection () );
+        $pager->setLimit ( 10000 )->setShowAmounts ( false )->setCollection ( $this->getCollection () );
         $this->setChild ( 'pager', $pager );
         
         return $this;

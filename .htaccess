@@ -93,7 +93,7 @@
 ## http://developer.yahoo.com/performance/rules.html#gzip
 
     # Insert filter on all content
-    ###SetOutputFilter DEFLATE
+    #SetOutputFilter DEFLATE
     # Insert filter on selected content types only
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json image/svg+xml
 

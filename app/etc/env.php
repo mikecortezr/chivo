@@ -31,7 +31,7 @@ return array (
     ),
   ),
   'x-frame-options' => 'SAMEORIGIN',
-  'MAGE_MODE' => 'developer',
+  'MAGE_MODE' => 'production',
   'session' => 
   array (
     'save' => 'files',
@@ -56,5 +56,18 @@ return array (
   'install' => 
   array (
     'date' => 'Sun, 28 Jun 2020 04:45:52 +0000',
+  ),
+  'system' => 
+  array (
+    'default' => 
+    array (
+      'dev' => 
+      array (
+        'debug' => 
+        array (
+          'debug_logging' => '0',
+        ),
+      ),
+    ),
   ),
 );

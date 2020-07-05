@@ -163,8 +163,8 @@ Street Address,Calle Dirección
 Address,Dirección
 Street Address %1,Dirección 1%
 City,Ciudad
-State/Province,Estado / Provincia
-"Please select a region, state or province.","Por favor seleccione una región, estado o provincia."
+State/Province,Estado / Municipio
+"Please select a region, state or province.","Por favor seleccione una región, estado o municipio."
 Zip/Postal Code,Zip / Código Postal
 Country,País
 * Required Fields,* Campos obligatorios
